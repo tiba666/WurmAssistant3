@@ -4,6 +4,6 @@ namespace AldursLab.WurmAssistant3.Areas.LogSearcher
     {
         Unspecified = 0,
         RegexEscapedCaseIns, 
-        RegexCustom
+        RegexCustom,A
     }
 }

@@ -160,6 +160,7 @@
             this.comboBoxSearchType.Name = "comboBoxSearchType";
             this.comboBoxSearchType.Size = new System.Drawing.Size(231, 25);
             this.comboBoxSearchType.TabIndex = 4;
+            this.comboBoxSearchType.SelectedIndexChanged += new System.EventHandler(this.comboBoxSearchType_SelectedIndexChanged);
             this.comboBoxSearchType.KeyUp += new System.Windows.Forms.KeyEventHandler(this.comboBoxSearchType_KeyUp);
             // 
             // comboBoxPlayerName

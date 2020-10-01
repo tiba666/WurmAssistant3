@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26228.9
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{0BDB17A9-D5A8-45BE-B374-6285064D85B7}"
 EndProject
@@ -78,6 +78,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WurmAssistant3.Areas.SamplePlugin.Contracts", "Apps\WurmAssistant\WurmAssistant3.Areas.SamplePlugin.Contracts\WurmAssistant3.Areas.SamplePlugin.Contracts.csproj", "{3E82D98F-EBDA-4CDA-8F6A-D77D92433CEC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WurmAssistant3.Utils", "Apps\WurmAssistant\WurmAssistant3.Utils\WurmAssistant3.Utils.csproj", "{668F6D11-97F0-4745-B537-8B3B8BC46EA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WurmAffinityFood", "..\..\WurmAffinityFood\WurmAffinityFood.csproj", "{EF49DA0A-7A84-4B0D-BD2B-E0CF95A6A163}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -248,6 +250,12 @@ Global
 		{668F6D11-97F0-4745-B537-8B3B8BC46EA5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{668F6D11-97F0-4745-B537-8B3B8BC46EA5}.Stable|Any CPU.ActiveCfg = Release|Any CPU
 		{668F6D11-97F0-4745-B537-8B3B8BC46EA5}.Stable|Any CPU.Build.0 = Release|Any CPU
+		{EF49DA0A-7A84-4B0D-BD2B-E0CF95A6A163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF49DA0A-7A84-4B0D-BD2B-E0CF95A6A163}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF49DA0A-7A84-4B0D-BD2B-E0CF95A6A163}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF49DA0A-7A84-4B0D-BD2B-E0CF95A6A163}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF49DA0A-7A84-4B0D-BD2B-E0CF95A6A163}.Stable|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF49DA0A-7A84-4B0D-BD2B-E0CF95A6A163}.Stable|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -285,6 +293,7 @@ Global
 		{FD226A7D-0EAE-4D7F-9DE2-EB92628640C2} = {A35B9DE5-C3E7-4799-BF17-4AED3B723414}
 		{3E82D98F-EBDA-4CDA-8F6A-D77D92433CEC} = {A35B9DE5-C3E7-4799-BF17-4AED3B723414}
 		{668F6D11-97F0-4745-B537-8B3B8BC46EA5} = {1180F396-1735-42CE-8D6C-B992A921FA5E}
+		{EF49DA0A-7A84-4B0D-BD2B-E0CF95A6A163} = {1180F396-1735-42CE-8D6C-B992A921FA5E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {592D30B4-0F26-4620-A773-FD57EE7C8B0B}

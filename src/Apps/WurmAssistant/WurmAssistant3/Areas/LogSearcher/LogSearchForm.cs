@@ -448,5 +448,10 @@ namespace AldursLab.WurmAssistant3.Areas.LogSearcher
         {
             if (WindowState != FormWindowState.Minimized) lastVisibleWindowState = WindowState;
         }
+
+        private void comboBoxSearchType_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

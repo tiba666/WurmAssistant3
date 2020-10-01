@@ -38,5 +38,7 @@ namespace AldursLab.WurmAssistant3.Areas.SamplePlugin.CustomViews
             var view = somethingViewModelFactory.CreatesSomethingViewModel();
             windowManager.ShowWindow(view);
         }
+
+
     }
 }
